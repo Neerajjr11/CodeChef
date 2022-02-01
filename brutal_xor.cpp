@@ -23,10 +23,10 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
-    int t;
+    int testcase;
     int i;
-    cin >> t;
-    while (t--)
+    cin >> testcase;
+    while (testcase--)
     {
         int arr[100];
         int n;
